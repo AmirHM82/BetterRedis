@@ -76,7 +76,7 @@ We welcome contributions to enhance BetterRedis. To contribute:
 3. Submit a pull request with detailed information about your changes.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
 
 ## Contact
 For any questions or support, please create an issue on GitHub or contact the maintainers.
