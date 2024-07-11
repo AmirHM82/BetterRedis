@@ -55,9 +55,6 @@ Alternatively, you can use the NuGet Package Manager in Visual Studio to search 
    await cacheManager.RemoveAsync("key");
    ```
 
-### Advanced Usage
-Explore advanced features like custom serializers, logging, and more in the [documentation](#).
-
 ## Contributing
 We welcome contributions to enhance BetterRedis. To contribute:
 
