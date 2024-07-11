@@ -54,6 +54,19 @@ Alternatively, you can use the NuGet Package Manager in Visual Studio to search 
    ```csharp
    await cacheManager.RemoveAsync("key");
    ```
+   
+   Or Invalidate all entries:
+   
+   ```csharp
+   await cacheManager.ClearAsync();
+   ```
+
+5. **Cache Extension:**
+   Extend the duration of cache entry:
+
+   ```csharp
+   await cacheManager.RefreshAsync("key");
+   ```
 
 ## Contributing
 We welcome contributions to enhance BetterRedis. To contribute:
