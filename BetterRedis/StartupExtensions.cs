@@ -1,5 +1,6 @@
 ﻿using BetterRedis.Repositories;
 using BetterRedis.Services;
+using Microsoft.Extensions.Caching.StackExchangeRedis;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -19,12 +20,9 @@ namespace BetterRedis
         /// <param name="builder">Represents a hosted applications and services builder which is in startup</param>
         /// <param name="connectionString">A string representing the location of database</param>
         /// <returns>The <see cref="IHostApplicationBuilder"/> so that additional calls can be chained.</returns>
-        public static IHostApplicationBuilder AddBetterRedis(this IHostApplicationBuilder builder, string connectionString)
+        public static IHostApplicationBuilder AddBetterRedis(this IHostApplicationBuilder builder, Action<RedisCacheOptions> options)
         {
-            builder.Services.AddStackExchangeRedisCache(options =>
-            {
-                options.Configuration = connectionString;
-            });
+            builder.Services.AddStackExchangeRedisCache(options);
             builder.Services.AddSingleton<IRedisRepository, RedisService>();
             return builder;
         }
