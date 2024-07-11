@@ -1,7 +1,7 @@
 # BetterRedis .NET Library
 
 ## Overview
-BetterRedis is a .NET library designed to simplify the use of Redis caching and extend its capabilities. This library abstracts the complexities of working directly with Redis and offers a more streamlined and intuitive interface for developers. With BetterRedis, you can leverage the power of Redis with minimal effort and maximize your application's performance through efficient caching strategies.
+BetterRedis is a .NET library designed to simplify the use of Redis caching and extend its capabilities. This library abstracts the complexities of working directly with Redis and offers a more streamlined interface for developers.
 
 ## Features
 - **Simplified API:** Easy-to-use methods for common caching operations.
