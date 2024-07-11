@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Authors>Amir Hossein Mousavi</Authors>
-    <Title>Redis but easier</Title>
+    <Title>BetterRedis</Title>
     <Description>BetterRedis is a user-friendly tool designed to simplify and enhance the utilization of Redis.</Description>
     <PackageId>Caching.StackExchangeRedis.$(AssemblyName)</PackageId>
     <Copyright>MIT</Copyright>
