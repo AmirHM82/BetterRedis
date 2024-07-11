@@ -48,7 +48,7 @@ Alternatively, you can use the NuGet Package Manager in Visual Studio to search 
    var value = await cacheManager.GetAsync<string>("key");
    ```
 
-3. **Enhanced GetAsync:**
+3. **GetAsync Enhancement:**
    Use the GetAsync method even if the data is not cached (it will query the database):
 
    ```csharp
