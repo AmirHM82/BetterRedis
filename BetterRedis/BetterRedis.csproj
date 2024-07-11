@@ -9,6 +9,9 @@
     <Description>BetterRedis is a user-friendly tool designed to simplify and enhance the utilization of Redis.</Description>
     <PackageId>Caching.StackExchangeRedis.$(AssemblyName)</PackageId>
     <Copyright>MIT</Copyright>
+    <RepositoryUrl>https://github.com/AmirHM82/BetterRedis</RepositoryUrl>
+    <PackageTags>redis, cache, caching, enhanced redis, redis pro, better redis</PackageTags>
+    <PackAsTool>False</PackAsTool>
   </PropertyGroup>
 
   <ItemGroup>
